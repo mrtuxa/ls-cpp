@@ -16,4 +16,4 @@ jobs:
     - name: compile
       run: g++ -o ls main.cpp
     - name: Run Programm
-      run: chmod +x ls + ./ls
+      run: chmod +x ls && ./ls
